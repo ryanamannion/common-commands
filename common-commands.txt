@@ -2,9 +2,3 @@
 ###############################
 # COMMON COMMANDS TO REMEMBER #
 ###############################
-
-# view system resources
-glances
-
-# view tempteratures
-watch sensors
