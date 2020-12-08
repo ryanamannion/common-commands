@@ -26,4 +26,4 @@ OPTIONS
 -------
 common-commands			cat's common-commands.txt file out
 common-commands add		add a new common-commands
-common-commands edit	opens common-commands.txt in editor (default nano)
+common-commands edit		opens common-commands.txt in editor (default nano)
