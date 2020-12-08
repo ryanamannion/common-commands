@@ -1,0 +1,10 @@
+* file location /usr/local/bin/ *
+###############################
+# COMMON COMMANDS TO REMEMBER #
+###############################
+
+# view system resources
+glances
+
+# view tempteratures
+watch sensors

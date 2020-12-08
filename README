@@ -1,0 +1,29 @@
+# common-commands
+
+save commands so you can quickly access them later 
+without google
+
+===========================================================
+
+This is just me practicing shell scripting
+
+
+INSTRUCTIONS
+------------
+1.  clone repo
+
+2.  change location of dir in code, unless you add it to your
+	/usr/local/bin ... in which case youre ok
+
+3.  make executable with `$chmod +x`
+
+4.  add to path
+
+5.  youre off to the races
+
+
+OPTIONS
+-------
+common-commands			cat's common-commands.txt file out
+common-commands add		add a new common-commands
+common-commands edit	opens common-commands.txt in editor (default nano)

@@ -1,0 +1,25 @@
+#!/bin/bash
+# common-commands
+# practice with bash scripting
+# echo a file with common commands or add to it with an optional flag
+
+# commands file
+CMD_FILE="/usr/local/bin/common-commands/common-commands.txt"
+
+MODE="$1"
+
+if [ "$MODE" == 'add' ]
+then
+	echo -n "Please enter a description: "
+	read description
+	echo -n "Please enter the command: "
+	read command
+	printf "\n# %s\n%s\n" "$description" "$command" >> $CMD_FILE
+else
+	if [ "$MODE" == 'edit' ]
+	then
+		nano $CMD_FILE
+	else
+		cat $CMD_FILE
+	fi
+fi
